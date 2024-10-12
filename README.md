@@ -182,6 +182,44 @@ const serverConfig = {
 
 createAuthServer(serverConfig);
 ```
+<h2>Configuration</h2>
+<h3>Server Configuration Options</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Option</th>
+            <th>Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>port</code></td>
+            <td>Number</td>
+            <td>The port on which the server will listen</td>
+        </tr>
+        <tr>
+            <td><code>mongoUri</code></td>
+            <td>String</td>
+            <td>The connection URI for MongoDB</td>
+        </tr>
+        <tr>
+            <td><code>authFields</code></td>
+            <td>Array</td>
+            <td>Fields used for authentication (e.g., email)</td>
+        </tr>
+        <tr>
+            <td><code>fields</code></td>
+            <td>Array</td>
+            <td>User data fields for the schema</td>
+        </tr>
+        <tr>
+            <td><code>jwtSecretKey</code></td>
+            <td>String</td>
+            <td>Secret key for signing JWTs</td>
+        </tr>
+    </tbody>
+</table>
 
 # License
 This project is licensed under the MIT License. 
