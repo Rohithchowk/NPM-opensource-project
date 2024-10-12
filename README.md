@@ -112,7 +112,7 @@ You can customize the styles by overriding the default CSS classes defined in Lo
 ```
 
 
-# React Easy Register
+# react-easy-register
 
 `react-easy-register` is a simple and customizable registration component for React applications. With this component, you can easily create a registration page with minimal setup.
 
