@@ -1,4 +1,4 @@
-<h1>1.<u>react-easy-login</u></h1>
+<h1>1. <u>react-easy-login</u></h1>
 
 
 `react-easy-login` is a simple and easy-to-use React component for implementing a login page with minimal code. It provides a pre-styled login form that you can use in your React applications by simply passing a few props.
