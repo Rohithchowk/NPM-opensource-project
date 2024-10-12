@@ -150,7 +150,8 @@ export default App;
 ## License
 This project is licensed under the MIT License. 
 
-`MIT License
+`
+MIT License
 
 Copyright (c) [year] [Your Name]
 
