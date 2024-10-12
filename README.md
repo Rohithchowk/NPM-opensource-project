@@ -147,6 +147,42 @@ function App() {
 export default App;
 ```
 
+# Auth Server Module
+
+This module creates a simple authentication server using Express and MongoDB. It provides endpoints for user registration and login, and it supports JSON Web Tokens (JWT) for authentication. This module is designed to work seamlessly with `react-easy-login` and `react-easy-register`.
+
+## Features
+
+- User registration and login
+- Password hashing with bcrypt
+- JWT-based authentication
+- Dynamic schema creation based on user-defined fields
+- CORS support
+- Middleware for protected routes
+
+## Installation
+
+To use this module, first install the necessary dependencies:
+
+```bash
+npm install express mongoose bcrypt jsonwebtoken body-parser cors
+```
+## Usage
+Here's how to create an authentication server using this module:
+```jsx
+const createAuthServer = require('path/to/your/auth-server-module');
+
+const serverConfig = {
+  port: 5000, // Specify the port for the server
+  mongoUri: 'mongodb://localhost:27017/yourdbname', // Replace with your MongoDB URI
+  authFields: ['email', 'password'], // Specify authentication fields
+  fields: ['name', 'email', 'password'], // Specify user fields
+  jwtSecretKey: 'your_jwt_secret_key', // Replace with a strong secret key
+};
+
+createAuthServer(serverConfig);
+```
+
 # License
 This project is licensed under the MIT License. 
 
