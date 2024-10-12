@@ -110,3 +110,39 @@ You can customize the styles by overriding the default CSS classes defined in Lo
 }
 
 ```
+
+
+# React Easy Register
+
+`react-easy-register` is a simple and customizable registration component for React applications. With this component, you can easily create a registration page with minimal setup.
+
+## Installation
+
+You can install the package via npm:
+
+```bash
+npm install react-easy-register
+```
+
+Usage
+To use the Register component, simply import it and include it in your React component. Here is an example:
+```jsx
+import React from 'react';
+import Register from 'react-easy-register';
+
+function App() {
+  return (
+    <div className="App">
+      <Register
+        inputs={['name', 'email', 'password']}
+        authFields={['name', 'email', 'password']}
+        uri="https://your-auth-api.com/register"
+        redirectto="/login"
+        loginroute="/login"
+      />
+    </div>
+  );
+}
+
+export default App;
+```
