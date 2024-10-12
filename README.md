@@ -148,7 +148,7 @@ function App() {
 export default App;
 ```
 
-<h1>2. <u>auto-auth-server</u></h1>
+<h1>3. <u>auto-auth-server</u></h1>
 
 This module creates a simple authentication server using Express and MongoDB. It provides endpoints for user registration and login, and it supports JSON Web Tokens (JWT) for authentication. This module is designed to work seamlessly with `react-easy-login` and `react-easy-register`.
 
