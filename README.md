@@ -124,7 +124,7 @@ You can install the package via npm:
 npm install react-easy-register
 ```
 
-Usage
+## Using the module react-easy-register
 To use the Register component, simply import it and include it in your React component. Here is an example:
 ```jsx
 import React from 'react';
