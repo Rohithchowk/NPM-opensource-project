@@ -113,7 +113,7 @@ You can customize the styles by overriding the default CSS classes defined in Lo
 ```
 
 
-# react-easy-register
+<h1>2. <u>react-easy-register</u></h1>
 
 `react-easy-register` is a simple and customizable registration component for React applications. With this component, you can easily create a registration page with minimal setup.
 
@@ -148,7 +148,7 @@ function App() {
 export default App;
 ```
 
-# Auth Server Module
+<h1>2. <u>auto-auth-server</u></h1>
 
 This module creates a simple authentication server using Express and MongoDB. It provides endpoints for user registration and login, and it supports JSON Web Tokens (JWT) for authentication. This module is designed to work seamlessly with `react-easy-login` and `react-easy-register`.
 
