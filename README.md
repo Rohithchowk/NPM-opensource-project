@@ -85,3 +85,28 @@ The `Login` component accepts the following props:
   </tbody>
 </table>
 
+## Customization
+
+You can customize the styles by overriding the default CSS classes defined in Login.css. You can also change the structure of your authentication form using props.
+
+```css
+
+.auth-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+```
