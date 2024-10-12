@@ -18,6 +18,7 @@ You can install `react-easy-login` using npm or yarn.
 ```bash
 npm install react-easy-login
 ```
+### Using the module
 
 ```jsx
 import React from 'react';
