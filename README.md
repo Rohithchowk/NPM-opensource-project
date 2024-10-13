@@ -1,5 +1,5 @@
 <h1>Video Demonstartion of modules</h1>
-[![Loom Video](https://cdn.loom.com/sessions/thumbnails/your-loom-video-id-with-thumbnail.jpg)](https://www.loom.com/share/32c6a63c87734a068c4ad13e3e7a5573?sid=891001a6-301c-4235-a1cc-f8f618b08f3f)
+[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.loom.com/share/32c6a63c87734a068c4ad13e3e7a5573?sid=891001a6-301c-4235-a1cc-f8f618b08f3f)
 
 
 <h1>1. <u>react-easy-login</u></h1>
